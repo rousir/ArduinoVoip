@@ -1,2 +1,2 @@
 # ArduinoVoip
-Arduino voip Library, Use sip protocol
+Arduino voip library, Use sip protocol
