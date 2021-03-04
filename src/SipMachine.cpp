@@ -431,7 +431,7 @@ void SipMachine::sipRegister()
         sipHeader.callId.callId = callId + "@" + userAgent;
         sipHeader.contact.telNr = telNr;
         sipHeader.contact.userClient = userClient;
-        sipHeader.cSeq.cSeq = 0;
+        sipHeader.cSeq.cSeq = 1;
         sipHeader.cSeq.typ = "REGISTER";
         debug_println("*****  Register  *****");
         String str;
