@@ -33,7 +33,7 @@ SipMachine sipMachine = SipMachine(user, pwd, telNr, serverIp, serverIp);
 6. 使用linphone拨打esp32 sip
 
 # 未完成的
-还没有实现stup协议，还不能远程通讯
+还没有实现stun/rtun功能，还不能远程通讯
 
 # 感谢
 https://github.com/RetepRelleum/SipMachine 库基于RetepRelleum SipMachine库修改
