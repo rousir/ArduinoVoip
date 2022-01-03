@@ -12,7 +12,7 @@ Arduino voip电话,sip客户端，esp32 voip，使用tcp连接，已完成接听
 * 接受短信
 
 ## 使用方法
-1. 需要一个i2s麦克风和一个i2s喇叭，不能使用pdm输出的
+1. 需要一个i2s麦克风和一个i2s DAC功放驱动喇叭，麦克风我用的inmp441，麦克风不能使用pdm输出的，pdm的麦克风esp32驱动和i2s输出有冲突。DAC用的MAX98357用其他替代也可以。这两种是淘宝常见的。
 
 2. 安装一个sip server，可以使用任意sip协议的服务器，我使用的是[miniSIPServer](https://www.myvoipapp.com/)
 
