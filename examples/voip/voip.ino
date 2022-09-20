@@ -22,13 +22,13 @@ SipMachine::Status status;
 #define I2S_NUM_TXRX I2S_NUM_0
 
 #define PIN_I2S_BCLK    26
-#define PIN_I2S_LRC     27
+#define PIN_I2S_WS      27
 #define PIN_I2S_DIN     34
 #define PIN_I2S_DOUT    25
 
 //m5stack core2
 // #define PIN_I2S_BCLK    12
-// #define PIN_I2S_LRC     0
+// #define PIN_I2S_WS     0
 // #define PIN_I2S_DIN     34
 // #define PIN_I2S_DOUT    2
 
@@ -46,7 +46,7 @@ void I2S_Init(i2s_bits_per_sample_t BPS, i2s_port_t I2S_NUM, int rate) {
 
     i2s_pin_config_t pin_config;
     pin_config.bck_io_num = PIN_I2S_BCLK;
-    pin_config.ws_io_num = PIN_I2S_LRC;
+    pin_config.ws_io_num = PIN_I2S_WS;
     pin_config.data_in_num = PIN_I2S_DIN;
     pin_config.data_out_num = PIN_I2S_DOUT;
 
