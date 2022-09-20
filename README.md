@@ -34,6 +34,19 @@ SipMachine sipMachine = SipMachine(user, pwd, telNr, serverIp, serverIp);
 ```
 6. 使用linphone拨打esp32 sip
 
+#接线
+|ESP32| MIC I2S(INMP441)  |
+| ------------ | ------------ |
+|  GPIO26 | BCLK  |
+|  GPIO27 | WS  |
+|  GPIO34 | DIN  |
+
+|ESP32| DAC I2S(MAX98357)  |
+| ------------ | ------------ |
+|  GPIO26 | BCLK  |
+|  GPIO27 | WS  |
+|  GPIO25 | DOUT  |
+
 # 未完成的
 还没有实现stun/rtun功能，还不能远程通讯
 
