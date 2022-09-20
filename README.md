@@ -34,7 +34,7 @@ SipMachine sipMachine = SipMachine(user, pwd, telNr, serverIp, serverIp);
 ```
 6. 使用linphone拨打esp32 sip
 
-#接线
+# 接线
 |ESP32| MIC I2S(INMP441)  |
 | ------------ | ------------ |
 |  GPIO26 | BCLK  |
